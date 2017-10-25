@@ -24,12 +24,12 @@ public class PowersOf2
             //print a message saying how many powers of 2 will be printed
             //initialize exponent -- the first thing printed is 2 to the what?
             exponent = 0;
-            while (1==1)
+            while (exponent!=numPowersOf2)
             {
-                    //print out current power of 2
+                System.out.println(Math.pow(2,exponent));
  
                 //find next power of 2 -- how do you get this from the last one?
- 
+                exponent++;
                 //increment exponent
  
             }
